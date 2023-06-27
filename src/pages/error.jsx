@@ -1,0 +1,11 @@
+import React from 'react'
+
+function error() {
+  return (
+    <>
+        <h1>error page</h1>
+    </>
+  )
+}
+
+export default error

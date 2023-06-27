@@ -1,0 +1,70 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ff0000aa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #fb6161aa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo.react /*, .logo.vite*/  {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+nav a{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.nav-active {
+  font-weight: 400;
+  color: gray;
+}
+
+.card {
+  width: 550px;
+}
+
+.card button{
+  display: inline;
+  margin: 3%;
+  width: 40%;
+  max-width: 120px;
+  height: 45px;
+  font-size: 17px;
+}
+
+button{
+  border-style: solid;
+  border-radius: 17px;
+}
+
+.read-the-docs {
+  color: #888;
+}

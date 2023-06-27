@@ -1,0 +1,48 @@
+.body p{
+    margin-top: 50px;
+    font-size: 27px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+/* .body{
+    height: 100%;
+    width: 100%;
+} */
+
+.row {
+    display: block;
+}
+
+
+.col button{
+    font-size: 27px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+iframe{
+    border-radius: 17px;
+    max-width: 450px;
+}
+
+nav a{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+  
+.nav-active {
+    font-weight: 400;
+    color: gray;
+  }
+
+  @media (min-width:990px) {
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
