@@ -18,7 +18,7 @@ function Pagegoogle() {
       </>
       
       <div className='bt'>
-        <button>ค้นหาใน Google</button>
+        <button>ค้นหาหีใน Google</button>
         <button>ดีใจจัง ฉันหาเจอแล้ว</button>
       </div>
 
