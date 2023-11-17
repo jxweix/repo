@@ -16,7 +16,7 @@ function Home() {
   }, [color]);
 
   function changColor() {
-    setColor('white');
+    setColor('green');
     setTimeout(() => {
       setColor('red');
     }, 3000);
